@@ -1,4 +1,5 @@
 import { IoClose } from 'react-icons/io5';
+import Image from 'next/image';
 
 type RecipeModalProps = {
   onClose: () => void;
@@ -18,6 +19,7 @@ export default function RecipeModal({
   serves,
   ingredients,
   directions,
+  img,
   gallery,
 }: RecipeModalProps) {
   return (
@@ -31,10 +33,23 @@ export default function RecipeModal({
         <div className="flex flex-col md:flex-row gap-4">
           {/* Main image & gallery */}
           <div className="flex-1">
-            <img src="/images/sandwiches.png" alt="Shwarma" className="rounded w-[20] h-[10]" />
+            <Image
+              src={img || "/images/sandwiches.png"}
+              alt={title}
+              width={400}
+              height={200}
+              className="rounded w-full h-auto"
+            />
             <div className="grid grid-cols-3 gap-2 mt-2">
-              {gallery.map((g, idx) => (
-                <img key={idx} src={g} alt="" className="rounded w-[20] h-[10]" />
+              {(gallery ?? []).map((g, idx) => (
+                <Image
+                  key={idx}
+                  src={g}
+                  alt={`${title} gallery ${idx+1}`}
+                  width={120}
+                  height={80}
+                  className="rounded w-full h-auto"
+                />
               ))}
             </div>
           </div>
@@ -48,11 +63,11 @@ export default function RecipeModal({
             </div>
             <h3 className="font-semibold mb-1">Ingredients</h3>
             <ul className="mb-3 border-t border-[#B2904C] pt-2 text-sm space-y-1">
-              {ingredients.map((item, idx) => <li key={idx}>{item}</li>)}
+              {(ingredients ?? []).map((item, idx) => <li key={idx}>{item}</li>)}
             </ul>
             <h3 className="font-semibold mb-1">Directions</h3>
             <div className="border-t border-[#B2904C] pt-2 text-sm space-y-2">
-              {directions.map((step, idx) => (
+              {(directions ?? []).map((step, idx) => (
                 <p key={idx}><strong>Step {idx+1}:</strong> {step}</p>
               ))}
             </div>
