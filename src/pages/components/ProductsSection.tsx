@@ -11,7 +11,6 @@ type Product = {
 
 export default function ProductsSection() {
   const [activeTab, setActiveTab] = useState('bread');
-  const [setSelectedProduct] = useState<Product | null>(null);
 
   const tabs = [
     { key: 'bread', label: 'Bread' },
