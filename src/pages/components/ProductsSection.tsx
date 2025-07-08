@@ -11,7 +11,7 @@ type Product = {
 
 export default function ProductsSection() {
   const [activeTab, setActiveTab] = useState('bread');
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [setSelectedProduct] = useState<Product | null>(null);
 
   const tabs = [
     { key: 'bread', label: 'Bread' },
@@ -75,7 +75,7 @@ export default function ProductsSection() {
                 title={product.title}
                 info={product.info}
                 img={product.img}
-                onClick={() => setSelectedProduct(product)}
+                onClick={() => {}}
               />
             </div>
           ))}
@@ -88,7 +88,7 @@ export default function ProductsSection() {
               title={product.title}
               info={product.info}
               img={product.img}
-              onClick={() => setSelectedProduct(product)}
+              onClick={() => {}}
             />
           ))}
         </div>
