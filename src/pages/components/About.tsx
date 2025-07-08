@@ -10,11 +10,11 @@ export default function About() {
             <main>
                 <section id="about" className="w-[100%] px-[3%] flex justify-center gap-[5%] md:gap-[15%] pt-[8vh] md:pt-[15vh] pb-[5vh] md:pb-[10vh]">
                     <div>
-                    <H2>About Baker's Inn</H2>
+                    <H2>About Baker&apos;s Inn</H2>
                     </div>
                     <div className="w-[50%]">
                     <P className="text-[12px] md:text-[25px] pb-[3vh]">
-                        It all started back in the eighties when Baker's Inn was just a small confectionery company that employed 40 people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient and accessible answer to hunger’s call.
+                        It all started back in the eighties when Baker&apos;s Inn was just a small confectionery company that employed 40 people and produced about 30,000 loaves a day. We now aim to provide a nourishing, convenient and accessible answer to hunger’s call.
                     </P>
                     <Link href="/about"><Button>READ MORE</Button></Link>
                     </div>

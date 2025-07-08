@@ -18,7 +18,6 @@ export default function RecipeModal({
   serves,
   ingredients,
   directions,
-  img,
   gallery,
 }: RecipeModalProps) {
   return (

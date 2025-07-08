@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import H2 from './Heading2';
 import H3 from './Heading3';
 import P from './Paragraph';
 

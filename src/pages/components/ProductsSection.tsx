@@ -4,7 +4,7 @@ import H2 from './Heading2';
 
 export default function ProductsSection() {
   const [activeTab, setActiveTab] = useState('bread');
-  const [selectedProduct, setSelectedProduct] = useState<null | any>(null);
+  const [setSelectedProduct] = useState<null | any>(null);
 
   const tabs = [
     { key: 'bread', label: 'Bread' },

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import H1 from './Heading1';
 
 const ContactHero = () => {
