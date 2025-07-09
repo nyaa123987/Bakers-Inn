@@ -49,14 +49,13 @@ export default function CoreValues() {
           </div>
         ))}
 
-        {/* Second row: center last two cards */}
-        <div className="flex justify-center gap-6">
-          {values.slice(3).map((value, idx) => (
+        {/* Second row */}
+        <div className="grid grid-cols-2 md:grid-cols-2 md:gap-6 max-w-6xl md:mx-auto">
+          {values.slice(2).map((value, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center rounded p-4 w-full sm:w-[45%] md:w-[30%]"
-            >
-              <img src={value.img} alt={value.title} className="w-full object-cover rounded mb-4" />
+              className="flex flex-col items-center text-center rounded p-4 w-full">
+              <img src={value.img} alt={value.title} className="md:w-full md:h-50 object-cover rounded mb-4" />
               <H3 className='text-[12px]'>{value.title}</H3>
               <P className='text-[8px]'>{value.description}</P>
             </div>

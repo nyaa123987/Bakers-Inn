@@ -19,9 +19,9 @@ export default function Footer() {
         <div>
           <FH1>Instagram Feed</FH1>
           <div className="flex space-x-2 mb-3">
-            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[30px] md:w-[120px] h-[20px] md:h-[100px]" />
-            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[30px] md:w-[120px] h-[20px] md:h-[100px]" />
-            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[30px] md:w-[120px] h-[20px] md:h-[100px]" />
+            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
+            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
+            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
           </div>
         </div>
 
@@ -43,12 +43,12 @@ export default function Footer() {
 
         <div>
           <FH1>Sitemap</FH1>
-          <ul className="space-y-1 text-[9px] md:text-base text-[white]">
-            <Link href="/"><li>Home</li></Link>
-            <Link href="/about"><li>About Us</li></Link>
-            <Link href="/products"><li>Products</li></Link>
-            <Link href="/recipes"><li>Recipes</li></Link>
-            <Link href="/kids"><li>Kids Corner</li></Link>
+          <ul className="space-y-1 text-[9px] md:text-base text-[white] cursor-pointer">
+            <Link className='hover:underline active:opacity-50' href="/"><li>Home</li></Link>
+            <Link className='hover:underline active:opacity-50' href="/about"><li>About Us</li></Link>
+            <Link className='hover:underline active:opacity-50' href="/products"><li>Products</li></Link>
+            <Link className='hover:underline active:opacity-50' href="/recipes"><li>Recipes</li></Link>
+            <Link className='hover:underline active:opacity-50' href="/kids"><li>Kids Corner</li></Link>
           </ul>
         </div>
       </div>

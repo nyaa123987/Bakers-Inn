@@ -12,7 +12,7 @@ export default function Table() {
   ];
 
   return (
-    <section className="px-[2%] md:px-[3%] py-8 text-[#261B6C]">
+    <section className="bg-white px-[2%] md:px-[3%] py-8 text-[#261B6C]">
       <div className="overflow-x-auto">
         <table className="min-w-full table-fixed border-collapse">
           <thead>

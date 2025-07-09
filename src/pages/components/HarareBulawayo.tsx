@@ -3,7 +3,7 @@ import P from './Paragraph';
 
 const HarareBulawayo = () => {
     return(
-        <main className='flex justify-center gap-[10%] bg-[#F7F5E8] px-[5%] py-[8vh] my-[5vh] md:my-[20vh]'>
+        <main className='flex justify-center gap-[10%] bg-[#F7F5E8] px-[5%] py-[12vh] md:my-[20vh]'>
             <div>
                 <Image src="/images/harare-factory.png" alt='Bread products in a Harare shop' width={500} height={250} />
                 <h2 className='text-xl md:text-3xl font-semibold text-[#261B6C] my-4'>Harare Bread Factory</h2>

@@ -3,7 +3,7 @@ import Button from './Buttons';
 
 export default function ContactForm() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-8">
+    <section className="bg-white max-w-4xl mx-auto px-4 py-8">
       <form className=" flex flex-col justify-center space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <select className="bg-[#F7F5E8] p-3 w-full text-[black]/50">

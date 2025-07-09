@@ -8,7 +8,7 @@ export default function Button({ children, className = "", onClick }: ButtonProp
   return (
     <button
       onClick={onClick}
-      className={`uppercase text-[10px] py-[4px] px-[20px] md:py-[8px] md:px-[40px] cursor:pointer md:text-[20px] bg-[#B2904C] text-white rounded ${className}`}
+      className={`uppercase text-[10px] py-[4px] px-[20px] md:py-[8px] md:px-[40px] cursor-pointer md:text-[20px] bg-[#B2904C] hover:bg-yellow-800 active:bg-yellow-800/80 text-white rounded ${className}`}
     >
       {children}
     </button>

@@ -4,7 +4,7 @@ import P from './Paragraph';
 
 const Email = () => {
     return(
-        <main className='flex flex-col bg-[#F8F8F8] px-[3%] justify-center align-middle py-[7vh] my-[4vh] md:my-[8vh]'>
+        <main className='flex flex-col bg-[#F8F8F8] px-[3%] justify-center align-middle py-[7vh] md:my-[8vh]'>
             <div className='flex justify-center mb-[6vh]'>
                 <Image src='/images/contact-employees.png' alt="Employees working" width={1000} height={200} />
             </div>
