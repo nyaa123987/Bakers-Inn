@@ -3,10 +3,9 @@ import H2 from './Heading2';
 
 export default function Promotions() {
   return (
-    <section className="bg-[#B2904C] rounded px-6 md:px-12 py-8 md:py-10 flex items-center justify-between max-w-6xl mx-[3%]">
-      {/* Left side: text & form */}
+    <section className="bg-[#B2904C] rounded px-6 md:px-12 py-8 md:py-10 flex flex-col-reverse md:flex-row items-center justify-between mx-[3%]">
       <div className="flex-1 mb-6 md:mb-0 md:mr-8">
-        <H2 className="text-white py-[3vh] w-[60%]">
+        <H2 className="text-white text-center md:text-start py-[3vh] w-[100%] md:w-[60%]">
           Get Notified About Promotions We Offer
         </H2>
         <form className="flex">
@@ -24,7 +23,6 @@ export default function Promotions() {
         </form>
       </div>
 
-      {/* Right side: bread images */}
       <div className="flex-1 flex justify-center md:justify-end gap-4">
         <Image src="/images/three-loaves.png" alt="Premium Baker's Inn loaves" width={580} height={200} />
       </div>

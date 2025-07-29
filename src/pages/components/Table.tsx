@@ -17,9 +17,9 @@ export default function Table() {
         <table className="min-w-full table-fixed border-collapse">
           <thead>
             <tr className="border-b border-gray-300">
-              <th className="w-1/4 px-4 py-2 border-r border-gray-300 text-left font-semibold">Depot</th>
-              <th className="w-1/2 px-4 py-2 border-r border-gray-300 text-left font-semibold">Address</th>
-              <th className="w-1/4 px-4 py-2 text-left font-semibold">Phone Number</th>
+              <th className="w-1/4 px-2 md:px-4 py-2 border-r border-gray-300 text-left text-sm md:text-lg font-semibold">Depot</th>
+              <th className="w-1/2 px-2 md:px-4 py-2 border-r border-gray-300 text-left text-sm md:text-lg font-semibold">Address</th>
+              <th className="w-1/4 px-2 md:px-4 py-2 text-left text-sm md:text-lg font-semibold">Phone Number</th>
             </tr>
           </thead>
           <tbody>
@@ -28,14 +28,14 @@ export default function Table() {
                 <tr
                   key={idx}
                 >
-                  <td className="px-4 py-2 border-r border-gray-200 font-semibold align-top">{item.depot}</td>
-                  <td className="px-4 py-2 border-r border-gray-200 align-top">{item.address}</td>
-                  <td className="px-4 py-2 font-semibold align-top">{item.phone}</td>
+                  <td className="px-2 md:px-4 py-2 border-r border-gray-200 text-sm md:text-lg font-semibold align-top">{item.depot}</td>
+                  <td className="px-2 md:px-4 py-2 border-r border-gray-200 text-sm md:text-lg align-top">{item.address}</td>
+                  <td className="px-2 md:px-4 py-2 text-sm md:text-lg font-semibold align-top">{item.phone}</td>
                 </tr>
 
                 {idx === 3 && (
                   <tr key={`spacer-${idx}`}>
-                    <td colSpan={3} className="py-2"></td>
+                    <td colSpan={3} className="py-3 md:py-2"></td>
                   </tr>
                 )}
               </>

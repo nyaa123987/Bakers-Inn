@@ -25,7 +25,7 @@ export default function RecipesSection() {
   const recipesData: Record<string, Recipe[]> = {
     kids: [
       {
-        title: 'Shwarma Sandwich',
+        title: 'Sandwich',
         prep: '20 min',
         serves: '6 people',
         img: '/images/sandwich.png',
@@ -63,7 +63,7 @@ export default function RecipesSection() {
     ],
     vegans: [
       {
-        title: 'Sweet Shortbread',
+        title: 'Shortbread',
         prep: '15 min',
         serves: '8 people',
         img: '/images/shortbread.png',

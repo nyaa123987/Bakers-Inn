@@ -2,7 +2,6 @@ import { useState } from 'react';
 import ProductCard from './ProductCard';
 import H2 from './Heading2';
 
-// Define product type
 type Product = {
   title: string;
   info: string;
@@ -63,6 +62,7 @@ export default function ProductsSection() {
           </button>
         ))}
       </div>
+      
       <div className="w-[100%] h-[0.02vh] bg-[gray] mb-10"></div>
 
       {/* Product Cards */}

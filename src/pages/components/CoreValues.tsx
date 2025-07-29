@@ -51,11 +51,9 @@ export default function CoreValues() {
 
         {/* Second row */}
         <div className="grid grid-cols-2 md:grid-cols-2 md:gap-6 max-w-6xl md:mx-auto">
-          {values.slice(2).map((value, idx) => (
-            <div
-              key={idx}
-              className="flex flex-col items-center text-center rounded p-4 w-full">
-              <img src={value.img} alt={value.title} className="md:w-full md:h-50 object-cover rounded mb-4" />
+          {values.slice(0, 2).map((value, idx) => (
+            <div key={idx} className="flex flex-col items-center text-center rounded p-4">
+              <img src={value.img} alt={value.title} className="md:w-150 md:h-50 object-cover rounded mb-4" />
               <H3 className='text-[12px]'>{value.title}</H3>
               <P className='text-[8px]'>{value.description}</P>
             </div>
