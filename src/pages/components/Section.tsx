@@ -10,7 +10,7 @@ export default function Section() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return(
-        <section className="bg-white flex justify-center gap-[3%] md:gap-[5%] px-[1.5%] md:px-[3%] py-[10vh] md:py-[20vh]">
+        <section className="bg-white flex justify-center gap-[3%] md:gap-[5%] px-[3%] py-[10vh] md:py-[20vh]">
             <div className="flex flex-col justify-center">
                 <H2>Book A Factory Tour</H2>
                 <P className="text-[10px] md:text-[20px] pb-[1vh] md:pb-[2vh]">Keen on seeing how Baker’s inn products are made? Are you interested in a field trip day for your school’s class? Get in touch with us to book a tour of our factory that is closest to you. Fill in the booking form and we will get back to you.</P>
