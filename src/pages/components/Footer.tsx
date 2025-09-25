@@ -3,6 +3,7 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import FH1 from "./FooterHeading1";
 import FP from './FooterParagraph';
 import Link from 'next/link';
+import { Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -33,8 +34,14 @@ export default function Footer() {
         <div>
           <FH1>Get In Touch With Us</FH1>
           <ul className="space-y-1 text-[9px] md:text-base text-[white]">
-            <li>📞 08080151</li>
-            <li>📞 08080152</li>
+            <li className="flex items-center gap-2">
+              <Phone className="w-4 h-4 md:w-5 md:h-5 text-white" />
+              08080151
+            </li>
+            <li className="flex items-center gap-2">
+              <Phone className="w-4 h-4 md:w-5 md:h-5 text-white" />
+              08080152
+            </li>
             <li>   +263 242 751 481</li>
             <li>   +263 242 710 334</li>
             <li> marketing@bakersinnzim.com</li>
