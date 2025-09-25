@@ -10,7 +10,7 @@ export default function Section2() {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return(
-        <section className="flex justify-center gap-[5%] px-[3%] py-[10vh] mb-[5vh] md:py-[20vh] bg-[#F8F8F8]">
+        <section className="flex justify-center gap-[3%] md:gap-[5%] px-[1.5%] md:px-[3%] py-[10vh] mb-[5vh] md:py-[20vh] bg-[#F8F8F8]">
             <div className="flex justify-center">
                 <Image src="/images/employees.png" alt="Employees working" width={1500} height={1500} />
             </div>
