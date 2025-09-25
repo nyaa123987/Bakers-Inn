@@ -37,12 +37,12 @@ export default function CoreValues() {
   ];
 
   return (
-    <section className="text-center w-full px-4 md:px-12 py-12 bg-[#F8F8F8]">
+    <section className="text-center w-full px-3 md:px-12 py-12 bg-[#F8F8F8]">
       <H2>Our Core Values</H2>
       <div className="grid grid-cols-3 md:grid-cols-3 md:gap-6 max-w-6xl md:mx-auto">
         {/* First row: 3 cards */}
         {values.slice(0, 3).map((value, idx) => (
-          <div key={idx} className="flex flex-col items-center text-center rounded p-4">
+          <div key={idx} className="flex flex-col items-center text-center rounded p-2 md:p-4">
             <img src={value.img} alt={value.title} className="md:w-80 md:h-50 object-cover rounded mb-4" />
             <H3 className='text-[12px]'>{value.title}</H3>
             <P className='text-[8px]'>{value.description}</P>
@@ -52,7 +52,7 @@ export default function CoreValues() {
         {/* Second row */}
         <div className="grid grid-cols-2 md:grid-cols-2 md:gap-6 max-w-6xl md:mx-auto">
           {values.slice(0, 2).map((value, idx) => (
-            <div key={idx} className="flex flex-col items-center text-center rounded p-4">
+            <div key={idx} className="flex flex-col items-center text-center rounded p-2 md:p-4">
               <img src={value.img} alt={value.title} className="md:w-150 md:h-50 object-cover rounded mb-4" />
               <H3 className='text-[12px]'>{value.title}</H3>
               <P className='text-[8px]'>{value.description}</P>

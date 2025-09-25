@@ -24,11 +24,10 @@ export default function ProductCard({ title, info, img, onClick }: ProductCardPr
           className="object-cover"
         />
       </div>
-      <div className='pb-[3vh] flex flex-col text-center px-[3%] mt-2'>
+      <div className='pb-[3vh] flex flex-col text-center px-[1%] md:px-[3%] mt-2'>
         <H3 className='text-[12px]'>{title}</H3>
         <P className='text-[8px]'>{info}</P>
       </div>
     </div>
   );
 }
- 

@@ -45,11 +45,11 @@ export default function ProductsSection() {
   };
 
   return (
-    <section className="bg-white px-4 md:px-12 md:py-8 pt-[15vh]">
-      <H2 className="text-center">Our Products</H2>
+    <section className="bg-white px-[3%] md:px-12 md:py-8 pt-[15vh]">
+      <H2 className="text-center pb-[2vh] md:pb-0">Our Products</H2>
 
       {/* Tabs */}
-      <div className="flex justify-center gap-6 text-[#261B6C] text-base md:text-lg">
+      <div className="flex justify-center gap-3 md:gap-6 text-[#261B6C] text-base md:text-lg">
         {tabs.map(tab => (
           <button
             key={tab.key}
@@ -80,7 +80,7 @@ export default function ProductsSection() {
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-6 pb-1">
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-3 md:gap-6 pb-1">
           {productsData[activeTab].map((product, idx) => (
             <ProductCard
               key={idx}

@@ -3,7 +3,7 @@ import P from './Paragraph';
 
 export default function AboutSection() {
     return(
-        <main className='flex align-middle px-[3%] justify-between gap-[5%] bg-[#F7F5E8] w-[100%] py-[10vh] md:p-[20vh] md:my-[20vh]'>
+        <main className='flex align-middle px-[3%] justify-between gap-[2%] md:gap-[5%] bg-[#F7F5E8] w-[100%] py-[10vh] md:p-[20vh] md:my-[20vh]'>
             <div className='flex gap-[3%]'>
                 <div>
                     <Image src="/images/brown-flag.png" alt="Mission" width={150} height={150} />
