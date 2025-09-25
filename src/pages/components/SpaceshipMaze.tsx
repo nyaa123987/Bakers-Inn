@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Button from './Buttons';
-import H2 from './Heading2';
+import H3 from './Heading3';
 
 const SpaceshipMaze = () => {
     return(
         <main className='bg-[#018BF1] flex flex-col text-center md:text-start md:flex-row md:h-[80vh] px-[3%] py-[2vh] md:my-[6vh] gap-[15%] justify-between align-middle'>
             <div className='flex flex-col justify-center'>
-                <H2 className='text-white'>Spaceship Maze</H2>
+                <H3 className='text-white'>Spaceship Maze</H3>
                 <p className='pb-[2vh] md:pt-[4vh] text-white text-[12px] md:text-[20px]'>Help the spaceship through the maze to get back to earth. Move through levels with increasing difficulty; each puzzle starts the ship in a different location.</p>
                 <p className='pb-[2vh] md:pb-[4vh] text-white text-[12px] md:text-[20px]'>Develop kids’ skills in strategizing, spatial awareness, hand-eye coordination, problem solving and more! Free to play, priceless for learning.</p>
                 <div>
