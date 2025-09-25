@@ -8,7 +8,7 @@ export default function About() {
     return(
         <main className="bg-white">
             <main>
-                <section id="about" className="w-[100%] px-[3%] md:flex justify-center gap-[5%] md:gap-[15%] pt-[8vh] md:pt-[15vh] pb-[5vh] md:pb-[10vh]">
+                <section id="about" className="w-[100%] px-[3%] md:flex justify-center gap-[5%] md:gap-[15%] pt-[10vh] md:pt-[15vh] pb-[8vh] md:pb-[10vh]">
                     <div className="flex justify-center">
                     <H2>About Baker&apos;s Inn</H2>
                     </div>
