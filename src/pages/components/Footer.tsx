@@ -19,9 +19,9 @@ export default function Footer() {
         <div>
           <FH1>Instagram Feed</FH1>
           <div className="flex space-x-0.5 md:space-x-2 mb-3">
-            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
-            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
-            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
+            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[20px] md:w-[120px] h-[15px] md:h-[100px]" />
+            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[20px] md:w-[120px] h-[15px] md:h-[100px]" />
+            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[20px] md:w-[120px] h-[15px] md:h-[100px]" />
           </div>
         </div>
 
