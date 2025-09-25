@@ -10,7 +10,7 @@ export default function Footer() {
 
       <div className="flex items-end justify-center">
         <hr className="flex-1 border-t border-[white]" />
-        <Link href="/"><Image src="/images/icon.png" alt="Logo" width={100} height={100} className=" mx-2 md:mx-4 w-[40px] md:w-[100px]" /></Link>
+        <Link href="/"><Image src="/images/icon.png" alt="Logo" width={100} height={100} className="mx-2 md:mx-4 w-[30px] md:w-[100px]" /></Link>
         <hr className="flex-1 border-t border-[white]" />
       </div>
 
@@ -62,7 +62,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center py-[2vh] border-t border-[white] text-xs">
         <div className="flex items-end space-x-2 mb-2 md:mb-0">
           <span className='text-[9px] md:text-base text-[white]'>Subsidiary of</span>
-          <Image src="/images/inscor-logo.png" alt="Innscor Logo" width={71} height={33} />
+          <Image src="/images/inscor-logo.png" alt="Innscor Logo" width={71} height={33} className="w-[30px] md:w-[100px]" />
         </div>
         <FP className="text-center md:text-left">
           Copyright © 2022 Bakers Inn. All rights reserved. 
