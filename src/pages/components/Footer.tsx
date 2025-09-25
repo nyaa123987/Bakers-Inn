@@ -10,18 +10,18 @@ export default function Footer() {
 
       <div className="flex items-end justify-center">
         <hr className="flex-1 border-t border-[white]" />
-        <Link href="/"><Image src="/images/icon.png" alt="Logo" width={100} height={100} className=" mx-2 md:mx-4 w-[50px] md:w-[100px]" /></Link>
+        <Link href="/"><Image src="/images/icon.png" alt="Logo" width={100} height={100} className=" mx-2 md:mx-4 w-[40px] md:w-[100px]" /></Link>
         <hr className="flex-1 border-t border-[white]" />
       </div>
 
-      <div className="flex justify-between pt-[3vh] md:pt-[5vh] pb-[2vh] gap-8 text-sm">
+      <div className="flex justify-between pt-[3vh] md:pt-[5vh] pb-[2vh] gap-3 md:gap-8 text-sm">
 
         <div>
           <FH1>Instagram Feed</FH1>
-          <div className="flex space-x-2 mb-3">
-            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
-            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
-            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[25px] md:w-[120px] h-[20px] md:h-[100px]" />
+          <div className="flex space-x-0.5 md:space-x-2 mb-3">
+            <Image src="/images/bean-bowel.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
+            <Image src="/images/two-sandwiches.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
+            <Image src="/images/salad.png" alt="Baked product" width={110} height={100} className="w-[23px] md:w-[120px] h-[18px] md:h-[100px]" />
           </div>
         </div>
 
@@ -37,7 +37,7 @@ export default function Footer() {
             <li>📞 08080152</li>
             <li>   +263 242 751 481</li>
             <li>   +263 242 710 334</li>
-            <li>📧 marketing@bakersinnzim.com</li>
+            <li> marketing@bakersinnzim.com</li>
           </ul>
         </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex space-x-3 text-sm md:text-xl py-[2vh]">
+      <div className="flex space-x-3 text-[12px] md:text-xl py-[2vh]">
         <a href="#"><FaTwitter /></a>
         <a href="#"><FaFacebookF /></a>
         <a href="#"><FaLinkedinIn /></a>
