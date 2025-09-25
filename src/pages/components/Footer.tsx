@@ -35,11 +35,11 @@ export default function Footer() {
           <FH1>Get In Touch With Us</FH1>
           <ul className="space-y-1 text-[9px] md:text-base text-[white]">
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 md:w-5 md:h-5 text-white" />
+              <Phone className="w-2 h-2 md:w-4 md:h-4 text-white" />
               08080151
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 md:w-5 md:h-5 text-white" />
+              <Phone className="w-2 h-2 md:w-4 md:h-4 text-white" />
               08080152
             </li>
             <li>   +263 242 751 481</li>
