@@ -23,8 +23,8 @@ export default function RecipeCard({ title, prep, serves, img, onClick }: Recipe
           <P>Prep Time: {prep}</P>
           <P>Serves: {serves}</P>
         </div>
-        <div className="flex justify-end align-bottom items-end px-[3%]">
-            <button className="bg-[#B2904C] text-white rounded-full px-1 md:px-4 md:py-3">→</button>
+        <div className="flex justify-end align-bottom items-end px-[1%] md:px-[3%]">
+            <button className="bg-[#B2904C] text-white rounded-full px-0.5 py-0.4 md:px-4 md:py-3">→</button>
         </div>
       </div>
     </div>

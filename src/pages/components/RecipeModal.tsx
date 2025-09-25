@@ -25,13 +25,13 @@ export default function RecipeModal({
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white max-w-4xl w-full rounded p-6 relative overflow-y-auto max-h-[90vh]">
-        {/* Close button */}
+      
         <button onClick={onClose} className="absolute top-4 right-4 text-[#261B6C] text-2xl">
           <IoClose />
         </button>
 
         <div className="flex flex-col md:flex-row gap-4">
-          {/* Main image & gallery */}
+        
           <div className="flex-1">
             <Image
               src={img || "/images/sandwiches.png"}
@@ -54,7 +54,6 @@ export default function RecipeModal({
             </div>
           </div>
 
-          {/* Details */}
           <div className="flex-1 text-[#261B6C]">
             <h2 className="text-xl md:text-2xl font-bold mb-2">{title}</h2>
             <div className="flex gap-4 mb-4 text-[#B2904C] font-semibold">

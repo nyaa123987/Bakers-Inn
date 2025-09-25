@@ -136,7 +136,7 @@ export default function RecipesSection() {
   };
 
   return (
-    <section className="bg-white px-4 md:px-12 py-10 mt-[15vh]">
+    <section className="bg-white px-2 md:px-12 py-10 mt-[10vh] md:mt-[15vh]">
       <h2 className="text-center text-2xl md:text-3xl font-semibold text-[#261B6C] mb-6">
         Baker’s Recipes
       </h2>
@@ -158,7 +158,7 @@ export default function RecipesSection() {
       <div className="w-[100%] h-[0.02vh] bg-[gray] mb-10"></div>
 
       {/* Recipe Cards */}
-      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-1.5 md:gap-6 mb-12">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-1.3 md:gap-6 mb-12">
         {recipesData[activeTab].map((recipe, idx) => (
           <RecipeCard
             key={idx}
