@@ -33,7 +33,7 @@ export default function HighlightImages() {
   }, []);
 
   return (
-    <main className='bg-white flex px-[3%] items-center py-[5vh] md:py-[3vh]'>
+    <main className='bg-white flex flex-col md:flex-row px-[3%] items-center py-[5vh] md:py-[3vh]'>
         <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-2xl md:text-5xl text-[#261B6C] mb-[2vh]'>The Finest of Baker’s Tik Tok Community Recipes</h1>
             <p className='text-sm md:text-lg text-[#261B6C] pb-[1vh]'>Make the finest croissants worthy of    Paris from your     home</p>
