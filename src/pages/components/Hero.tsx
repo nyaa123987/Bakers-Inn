@@ -9,7 +9,7 @@ export default function Hero() {
         <main>
             <section className="flex w-[100%] h-[80vh] justify-center items-center bg-[#261B6C] text-[white]">
                 <div className="pl-[3%] md:w-[60%]">
-                    <H1 className="text-2xl md:text-[60px]">Bringing you the best value at the best prices.</H1>
+                    <H1 className="text-lg md:text-[60px]">Bringing you the best value at the best prices.</H1>
                     <P className="text-white text-base md:text-[22px] pb-[3vh]">The freshest sandwiches you can make are with Baker’s inn soft white loaf.</P>
                     <Link href="#about"><Button>READ MORE</Button></Link>
                 </div>
